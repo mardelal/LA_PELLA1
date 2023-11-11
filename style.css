@@ -14,7 +14,7 @@ body {
 /*header*/
 
 .headerBoxImg {
-    background-image: url(./imgDev/header.png);
+    background-image: url();
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -43,8 +43,8 @@ body {
 }
 
 .titleHeader {
-    font-family: 'Roboto Slab', serif;
-    color: snow;
+    font-family: 'DM Serif Display', serif;
+    color:snow;
     font-weight: bold;
     font-size: 1.5em;
     height: 40vh;
