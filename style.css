@@ -13,6 +13,7 @@ h1 {
 h2 {
     font-size: 2em;
 }
+
 p {
     font-size: 1.2em;
 }
@@ -50,93 +51,46 @@ p {
     line-height: 5vh;
 }
 
-.menu {
- 
-    }
-    nav {
-  
-        width:20%;
-           max-height:0px;
-        overflow:hidden;
-        transition: 1s all; 
-       
-      }
-      .mostrar {
-            max-height:500px;
-       
-       
-       
-      }
-      nav ul {
-        
-        list-style:none;
-      }
-      
-      nav ul li a{
-        
-        
-       text-decoration:none;
-        display:block;
-        line-height:50px;
-        border-bottom:1px solid #222;
-        background-color:#03EBA6;
-        color:#222;
-        font-size:1.2em;
-        padding:10px;
-      }
-      
-      nav ul li a:hover {
-        
-        
-        background-color:#222;
-        color:#fff;
-      }
-      
-      .menu {
-        
-        padding:20px;
-        background-color:#222;
-        color:#fff;
-        width:15%;
-        cursor:pointer;  
-       
-      }
+.navegacionHeader {}
 
-
-
-
-
-/*.menuTiendaHeader {
+.navegacionHeader ul {
     display: flex;
-    padding: 0;
     margin: 0;
+    padding: 0;
     list-style: none;
-    
+
+
 }
-.liMenuTiendaHeader {
+
+.navegacionHeader a {
     display: block;
     padding: 2em;
-    background-color: #47524b;
-    color: snow;
+    text-decoration: none;
+
+}
+
+.navegacionHeader a:hover {
+    color:#47524b
    
 }
-.liMenuTiendaHeader:hover {
-    background-color: snow;
-   color: #47524b;
 
-/*.menuTiendaHeader ul li a:hover + ul, .menuTiendaHeader ul li ul:hover {
-}*/
-
-
-
-.texTitle {
-    line-height: 15vh;
+.navegacionHeader ul li ul {
+    display: none;
 }
 
-.linea {
-    margin-top: 10px;
-    margin-block-end: 10px;
+.navegacionHeader ul li a:hover+ul,
+.navegacionHeader ul li ul:hover {
+    display: block;
 }
+
+.menuHeader {
+    position: relative;
+  
+  }
+  .subMenuTiendaH{
+    position: absolute;
+  }
+
 
 /*main*/
 
@@ -184,12 +138,12 @@ p {
 .imgIluminacionMain {
     height: 100vh;
     width: 49.4%;
-  }
+}
 
 .imgBisuteriaMain {
     height: 100vh;
     width: 49%;
- }
+}
 
 
 /*footer*/

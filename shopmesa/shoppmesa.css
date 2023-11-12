@@ -7,33 +7,24 @@
 }
 
 /*header*/
-
-
-p {
-    font-size: 1.2em;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 2em;
-}
-
 .headerBox {
-    height: 26vh;
+    height: 60vh;
+    background-image: url(./imgShopMesa/imgHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flow-root;
 }
 
 .bannerHeader {
-    width: 99.4%;
-    background-color: #495b51;
-    color: snow;
+    width: 100%;
+    background-color: snow;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: fixed;
     cursor: pointer;
+    height: 10vh;
+    margin-top: 8vh;
 }
 
 .logoNHeader {
@@ -47,36 +38,50 @@ h2 {
     line-height: 5vh;
 }
 
-.texTitle {
-    line-height: 15vh;
+.navegacionHeader ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.linea {
-    margin-top: 10px;
-    margin-block-end: 10px;
+.navegacionHeader a {
+    display: block;
+    padding: 2em;
+    text-decoration: none;
+
 }
+
+.navegacionHeader a:hover {
+    color:#47524b
+   
+}
+
+.navegacionHeader ul li ul {
+    display: none;
+}
+
+.navegacionHeader ul li a:hover+ul,
+.navegacionHeader ul li ul:hover {
+    display: block;
+}
+
+.menuHeader {
+    position: relative;
+    }
+
+  .subMenuTiendaH{
+    position: absolute;
+  }
+
 
 /*main*/
 
-.mainBoxShopMesa {
-   img size: 10%;
-
-}
 
 .main {
     size: 10%
 }
 
-
-  
-  
- 
-  
-     
-  
-      
- 
- 
 
 /*main
 
