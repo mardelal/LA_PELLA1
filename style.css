@@ -6,34 +6,37 @@
     font-family: 'Jost', sans-serif;
 }
 
-/*header*/
-
-
-p {
-    font-size: 1.2em;
-}
-
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 h2 {
     font-size: 2em;
 }
+p {
+    font-size: 1.2em;
+}
+
+/*header*/
 
 .headerBox {
-    height: 26vh;
+    height: 60vh;
+    background-image: url(./shopmesa/imgShopMesa/imgHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flow-root;
 }
 
 .bannerHeader {
-    width: 99.4%;
-    background-color: #495b51;
-    color: snow;
+    width: 100%;
+    background-color: snow;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: fixed;
     cursor: pointer;
+    height: 10vh;
+    margin-top: 8vh;
 }
 
 .logoNHeader {
@@ -46,6 +49,85 @@ h2 {
     align-items: center;
     line-height: 5vh;
 }
+
+.menu {
+ 
+    }
+    nav {
+  
+        width:20%;
+           max-height:0px;
+        overflow:hidden;
+        transition: 1s all; 
+       
+      }
+      .mostrar {
+            max-height:500px;
+       
+       
+       
+      }
+      nav ul {
+        
+        list-style:none;
+      }
+      
+      nav ul li a{
+        
+        
+       text-decoration:none;
+        display:block;
+        line-height:50px;
+        border-bottom:1px solid #222;
+        background-color:#03EBA6;
+        color:#222;
+        font-size:1.2em;
+        padding:10px;
+      }
+      
+      nav ul li a:hover {
+        
+        
+        background-color:#222;
+        color:#fff;
+      }
+      
+      .menu {
+        
+        padding:20px;
+        background-color:#222;
+        color:#fff;
+        width:15%;
+        cursor:pointer;  
+       
+      }
+
+
+
+
+
+/*.menuTiendaHeader {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+.liMenuTiendaHeader {
+    display: block;
+    padding: 2em;
+    background-color: #47524b;
+    color: snow;
+   
+}
+.liMenuTiendaHeader:hover {
+    background-color: snow;
+   color: #47524b;
+
+/*.menuTiendaHeader ul li a:hover + ul, .menuTiendaHeader ul li ul:hover {
+}*/
+
+
 
 .texTitle {
     line-height: 15vh;
