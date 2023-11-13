@@ -78,8 +78,9 @@
 /*main*/
 
 
-.main {
-    size: 10%
+.sizeImg {
+    width: 10vw;
+    height: 10vw;
 }
 
 

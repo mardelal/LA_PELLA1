@@ -2,8 +2,8 @@ const section = document.getElementById("section");
 const main = document.getElementById("main");
 
 const jsonObj = {
-    "Vajilla": "Cafe y te",
-    "Descripcion": "porcelana",
+    "Vajilla": "CAFE Y TÉ",
+    "Descripcion": "Tazas y mugs de porcelana",
     "codigo": 25,
     "stock": true,
     "productos": [
@@ -71,16 +71,12 @@ function showproductos() {
         const myPara2 = document.createElement('p');
         const myPara3 = document.createElement('p');
         const myImg = document.createElement('img');
-
+       
         myH2.textContent = productos[i].name;
         myPara1.textContent = 'caracteristicas: ' + productos[i].caracteristicas;
         myPara2.textContent = 'precio ' + productos[i].precio;
         myImg.src = productos[i].imagen;
-
-
-
-
-        //myPara3.textContent = 'url';
+        
 
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
@@ -88,8 +84,10 @@ function showproductos() {
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myImg);
 
-
         section.appendChild(myArticle);
+
+        myImg.classList.add("sizeImg");
+
     }
 
 }
