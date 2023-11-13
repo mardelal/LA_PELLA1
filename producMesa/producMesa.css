@@ -1,0 +1,120 @@
+* {
+    padding: 0.5px;
+    margin: 0.5px;
+    /* color: #FF7F99;
+     color: #FFCA41;*/
+    font-family: 'Jost', sans-serif;
+}
+
+/*header*/
+.headerBox {
+    height: 60vh;
+    background-color: #495b51;
+    display: flow-root;
+}
+
+.bannerHeader {
+    width: 100%;
+    background-color: snow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    cursor: pointer;
+    height: 10vh;
+    margin-top: 8vh;
+}
+
+.logoNHeader {
+    height: 25vh;
+    width: 25vw;
+}
+
+.texHeader {
+    height: 50vh;
+    align-items: center;
+    line-height: 5vh;
+}
+
+.navegacionHeader ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacionHeader a {
+    display: block;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.navegacionHeader a:hover {
+    color: #47524b
+}
+
+.navegacionHeader ul li ul {
+    display: none;
+}
+
+.navegacionHeader ul li a:hover+ul,
+.navegacionHeader ul li ul:hover {
+    display: block;
+}
+
+.menuHeader {
+    position: relative;
+}
+
+.subMenuTiendaH {
+    position: absolute;
+}
+
+
+/*main*/
+
+
+
+/*main
+
+
+
+
+/*footer*/
+.footerBoxTop {
+    background-color: #495b51;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.logoBFooter {
+    height: 15vh;
+    width: 15vw;
+}
+
+.contacFooter {
+    width: 35vw;
+    /*justify-content: start;
+    align-items: center;*/
+    margin-top: 5vh;
+}
+
+.footerBoxEnd {
+    background-color: #495b51;
+    color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 18vh;
+}
+
+.copyright {
+    margin-left: 2vw;
+}
+
+.sizeWhatsapp {
+    height: 7vh;
+    width: 3vw;
+}
