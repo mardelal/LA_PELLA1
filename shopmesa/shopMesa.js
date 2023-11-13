@@ -1,9 +1,10 @@
-const section = document.getElementById("section");
 const main = document.getElementById("main");
+const section = document.getElementById("section");
+
 
 const jsonObj = {
     "Vajilla": "CAFE Y TÉ",
-    "Descripcion": "Tazas y mugs de porcelana",
+    "Descripcion": "tazas y mugs de porcelana",
     "codigo": 25,
     "stock": true,
     "productos": [
@@ -11,7 +12,7 @@ const jsonObj = {
             "name": "TAZA PLATO FLORES",
             "precio": 20 + " €",
             "caracteristicas": "Apta para horno",
-            "imagen": "img ./imgShopMesa/JUEGO_CUENCOS_FLORES-Y-PLANTAS.png"
+            "imagen": "./imgShopMesa/JUEGO_CUENCOS_FLORES-Y-PLANTAS.png"
         },
         {
 
@@ -56,7 +57,7 @@ function tienda() {
 
 
     const myPara = document.createElement('p');
-    myPara.textContent = 'Descripcion: ' + jsonObj.Descripcion + ' // codigo: ' + jsonObj['codigo'];
+    myPara.textContent = 'Aquí encontrarás ' + jsonObj.Descripcion + ' con código: ' + jsonObj['codigo'];
     main.appendChild(myPara);
 }
 
@@ -86,6 +87,7 @@ function showproductos() {
 
         section.appendChild(myArticle);
 
+        myArticle.classList.add("articles");
         myImg.classList.add("sizeImg");
 
     }

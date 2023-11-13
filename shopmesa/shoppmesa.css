@@ -53,8 +53,7 @@
 }
 
 .navegacionHeader a:hover {
-    color:#47524b
-   
+    color: #47524b
 }
 
 .navegacionHeader ul li ul {
@@ -68,15 +67,48 @@
 
 .menuHeader {
     position: relative;
-    }
+}
 
-  .subMenuTiendaH{
+.subMenuTiendaH {
     position: absolute;
-  }
+}
 
 
 /*main*/
 
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#main {
+    text-align: center;
+    height: 10vh;
+    padding: 3vh;
+    background-color: #495b51;
+    color: snow;
+    line-height: 5.5vh;
+
+}
+
+#section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.articles {
+justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
 
 .sizeImg {
     width: 10vw;
