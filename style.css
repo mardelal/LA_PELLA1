@@ -38,6 +38,7 @@ p {
     cursor: pointer;
     height: 10vh;
     margin-top: 8vh;
+    font-size: 1.1em;
 }
 
 .logoNHeader {
@@ -51,26 +52,23 @@ p {
     line-height: 5vh;
 }
 
-
+/*navegacion*/
 .navegacionHeader ul {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
-
-
 }
 
 .navegacionHeader a {
     display: block;
     padding: 2em;
     text-decoration: none;
-
 }
 
 .navegacionHeader a:hover {
-    color:#47524b
-   
+    color:darkgoldenrod;
+    font-size: 120%;
 }
 
 .navegacionHeader ul li ul {
@@ -84,11 +82,31 @@ p {
 
 .menuHeader {
     position: relative;
-  
-  }
-  .subMenuTiendaH{
+}
+
+.menuHeader li a {
+    position: relative;
+    font-weight: bold;
+    margin: 0px 15px;
+    color: #47524b;
+    text-decoration: none;
+
+}
+
+.menuHeader li a {
+    transition: all 0.5s;
+}
+
+.menuHeader li a:hover {
+    color:darkgoldenrod;
+    }
+
+.subMenuTiendaH {
     position: absolute;
-  }
+    background-color: snow;
+    text-decoration: none;
+    color: #47524b;
+}
 
 
 /*main*/
@@ -97,7 +115,9 @@ p {
     background-color: #47524b;
     color: snow;
     text-align: center;
-    line-height: 5vh;
+    line-height: 8vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .mainBoxShop {
