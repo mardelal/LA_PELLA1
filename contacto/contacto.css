@@ -1,0 +1,114 @@
+* {
+    padding: 0.5px;
+    margin: 0.5px;
+    /* color: #FF7F99;
+     color: #FFCA41;*/
+    font-family: 'Jost', sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/*header*/
+
+.headerBox {
+    height: 20vh;
+}
+
+.bannerHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    cursor: pointer;
+    height: 10vh;
+    margin-top: 3vh;
+    font-size: 1.1em;
+}
+
+.logoNHeader {
+    height: 20vh;
+    width: 20vw;
+}
+
+
+/*navegacion*/
+.navegacionHeader ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacionHeader a {
+    display: block;
+    padding: 2em;
+    text-decoration: none;
+}
+
+.navegacionHeader a:hover {
+    color: darkgoldenrod;
+    font-size: 120%;
+}
+
+.navegacionHeader ul li ul {
+    display: none;
+}
+
+.navegacionHeader ul li a:hover+ul,
+.navegacionHeader ul li ul:hover {
+    display: block;
+}
+
+.menuHeader {
+    position: relative;
+}
+
+.menuHeader li a {
+    position: relative;
+    font-weight: bold;
+    margin: 0px 15px;
+    color: #47524b;
+    text-decoration: none;
+}
+
+.menuHeader li a {
+    transition: all 0.5s;
+}
+
+.menuHeader li a:hover {
+    color: darkgoldenrod;
+}
+
+.subMenuTiendaH {
+    position: absolute;
+    background-color: snow;
+    text-decoration: none;
+    color: #47524b;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/*main*/
+
+.contacto {
+    display: flex;
+    margin: 3vh;
+}
+.texContac {
+    width: 40%;
+}
+.formulario {
+    margin: 3vh;
+    width: 60vh;
+}
