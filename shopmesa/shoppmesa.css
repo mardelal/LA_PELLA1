@@ -113,9 +113,14 @@ p {
 
 .texNavbar {
     text-align: center;
+    color: #47524b;
+   
+}
+.blockquote {
     line-height: 3vh;
     color: #47524b;
-    font-size: 1.2em;
+    font-size: 0.95em;
+   
 }
 
 /*main*/
