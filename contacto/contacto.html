@@ -13,7 +13,7 @@
 
         <div class="headerBox">
             <section class="bannerHeader">
-                <a href="./index.html"><img class="logoNHeader" src="../img dev/logoblack.png"></a>
+                <a href="../index.html"><img class="logoNHeader" src="../img dev/logoblack.png"></a>
 
                 <nav class="navegacionHeader">
 
@@ -40,27 +40,61 @@
     <main>
         <section class="contacto">
             <div class="texContac">
-                <h2> Contácto</h2>
+                <p class="titleContac"> Contácto</p>
                 <p> Puedes contactarnos a través de este formulario,
                     por mail a lapella@gmail.com o por Whatsapp en este número 639 357 159</p>
             </div>
             <div class="formulario">
                 <form action="ejemplo.php" method="get">
-                    <p>Nombre: <input type="text" name="nombre" required placeholder="Nombre"></p>
-                    <p>Correo electrónico: <input type="email" required placeholder="Correo electrónico"></p>
-                    <p>Número de teléfono: <input type="tel" placeholder="Número de teléfono"></p>
-                    <p>Mensaje: </p>
-                    <textarea name="texto" rows="4" cols="40" placeholder="Mensaje"></textarea>
-                    <button class="send" type="submit">
-                        <p> Enviar</p>
-                    </button>
-
-                    
-
-                    </p>
+                    <p>Nombre:</p>
+                    <input class="inputContac" type="text" name="nombre" required placeholder="Nombre">
+                    <p>Correo electrónico:</p>
+                    <input class="inputContac" type="email" required placeholder="Correo electrónico">
+                    <p>Número de teléfono:</p>
+                    <input class="inputContac" type="tel" placeholder="Número de teléfono">
+                    <p>Mensaje:</p>
+                    <textarea name="texto" rows="10" cols="50" placeholder="Mensaje"></textarea>
+                    <div>
+                        <button class="send" type="submit">
+                            <p> Enviar</p>
+                        </button>
+                    </div>
                 </form>
             </div>
         </section>
-
     </main>
+    <footer>
+        <section class="footerBoxTop">
+
+            <img class="logoBFooter" src="../img dev/logowhite.png">
+            <hr class="linea">
+            <div class="contacFooter">
+                <p>Contacto</p>
+                <p>Envios y devoluciones</p>
+            </div>
+            <hr class="linea">
+            <div class="contacFooter">
+                <p>Aviso legal</p>
+                <p>Politica de de privacidad</p>
+            </div>
+        </section>
+        <hr class="lineafooter">
+
+        <section class="footerBoxEnd">
+
+            <p class="copyright"> © 2023 La Pella</p>
+            <img class="footerInstagram" src="">
+            <img class="sizeWhatsapp" src="">
+        </section>
+
+
+    </footer>
+
+</body>
+<script src=""></script>
+
+</html>
+
+
+
 </body>

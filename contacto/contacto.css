@@ -1,8 +1,6 @@
 * {
     padding: 0.5px;
     margin: 0.5px;
-    /* color: #FF7F99;
-     color: #FFCA41;*/
     font-family: 'Jost', sans-serif;
 }
 
@@ -21,7 +19,7 @@ p {
 /*header*/
 
 .headerBox {
-    height: 20vh;
+    height: 12vh;
 }
 
 .bannerHeader {
@@ -33,12 +31,12 @@ p {
     cursor: pointer;
     height: 10vh;
     margin-top: 3vh;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 .logoNHeader {
-    height: 20vh;
-    width: 20vw;
+    height: 16vh;
+    width: 16vw;
 }
 
 
@@ -99,16 +97,90 @@ p {
     z-index: 1;
 }
 
-/*main*/
+/*main contacto*/
 
 .contacto {
     display: flex;
+    justify-content: center;
     margin: 3vh;
-}
+   }
+
 .texContac {
-    width: 40%;
+    width: 35%;
+    padding-right: 7vw;
+    line-height: 3.5vh;
 }
+.titleContac {
+    margin-bottom: 3vh;
+    font-size: 1.5em;
+}
+
 .formulario {
-    margin: 3vh;
     width: 60vh;
+    line-height: 220%;
+}
+
+.inputContac {
+    width: 25vw;
+    height: 4vh;
+}
+
+.send {
+    margin: 2vh;
+    height: 4vh;
+    width: 20vh;
+    color: white;
+    border: none;
+    border-radius: 42px 42px 42px 42px;
+    background: #47524b;
+    margin-left: -0.5vh;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.send:hover {
+    height: 4.5vh;
+    box-shadow: 10px 5px 5px rgb(161, 160, 160);
+    background-color: rgb(237, 242, 241);
+    color: #47524b;
+    border-color: #47524b;
+    transition: 0.4s;
+}
+/*footer*/
+.footerBoxTop {
+    background-color: #495b51;
+    color: snow;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.logoBFooter {
+    height: 15vh;
+    width: 15vw;
+}
+
+.contacFooter {
+    width: 35vw;
+    /*justify-content: start;
+    align-items: center;*/
+    margin-top: 5vh;
+}
+
+.footerBoxEnd {
+    background-color: #495b51;
+    color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 18vh;
+}
+
+.copyright {
+    margin-left: 2vw;
+}
+
+.sizeWhatsapp {
+    height: 7vh;
+    width: 3vw;
 }

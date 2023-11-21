@@ -3,7 +3,7 @@ const section = document.getElementById("section");
 
 
 const jsonObj = {
-    "Vajilla": "CAFE Y TÉ",
+    "Vajilla": "VAJILLA",
     "Descripcion": "tazas y mugs de porcelana",
     "codigo": 25,
     "stock": true,
