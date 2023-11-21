@@ -67,7 +67,7 @@ p {
 }
 
 .navegacionHeader a:hover {
-    color:darkgoldenrod;
+    color: darkgoldenrod;
     font-size: 120%;
 }
 
@@ -98,8 +98,8 @@ p {
 }
 
 .menuHeader li a:hover {
-    color:darkgoldenrod;
-    }
+    color: darkgoldenrod;
+}
 
 .subMenuTiendaH {
     position: absolute;
@@ -114,13 +114,17 @@ p {
 .texNavbar {
     text-align: center;
     color: #47524b;
-   
 }
+
+.titleNavbar {
+    margin: 2vh;
+}
+
 .blockquote {
     line-height: 3vh;
     color: #47524b;
     font-size: 0.95em;
-   
+
 }
 
 /*main*/
@@ -136,7 +140,7 @@ p {
 #main {
     text-align: center;
     height: 10vh;
-    padding: 3vh;
+    padding: 2vh;
     background-color: #495b51;
     color: snow;
     line-height: 5.5vh;
@@ -144,6 +148,8 @@ p {
 }
 
 #section {
+    margin-top: 5vh;
+    margin-bottom: 6vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -152,7 +158,7 @@ p {
 
 
 .articles {
-justify-content: center;
+    justify-content: center;
     justify-content: space-between;
     align-items: center;
 

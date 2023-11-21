@@ -41,6 +41,10 @@ p {
     font-size: 1.1em;
 }
 
+@media (max-width:391px) {
+   }
+
+
 .logoNHeader {
     height: 25vh;
     width: 25vw;
@@ -67,7 +71,7 @@ p {
 }
 
 .navegacionHeader a:hover {
-    color:darkgoldenrod;
+    color: darkgoldenrod;
     font-size: 120%;
 }
 
@@ -98,8 +102,8 @@ p {
 }
 
 .menuHeader li a:hover {
-    color:darkgoldenrod;
-    }
+    color: darkgoldenrod;
+}
 
 .subMenuTiendaH {
     position: absolute;
